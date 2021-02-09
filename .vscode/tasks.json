@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceRoot}/build"
+    },
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cmake",
+            "command": "cmake ../",
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "makefile",
+            "command": "make",
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "run",
+            "command": "./execute",
+            "group": "build"
+        }
+    ]
+}

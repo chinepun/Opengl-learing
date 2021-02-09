@@ -1,0 +1,1 @@
+add_library(stb_github stb_image.cpp)
